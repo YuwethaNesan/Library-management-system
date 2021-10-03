@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Library Management System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Style sheet-->
+    <link rel="stylesheet" href="../Css/style.css">
+
+    <style>
+        /*=====================================Index.html's Styles End=====================================*/
+
+        .sidenav {
+            height: 100%;
+            width: 160px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+
+        /*Books*/
+        .book {
+            max-width: 250px;
+            max-height: auto;
+            padding-right: 10px !important;
+            padding-left: 10px !important;
+        }
+
+        .books {
+            margin-left: 200px !important;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="sidenav">
+        <a href="../index.html">Home</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./book-shelves.html">Book List</a>
+        <a href="#">Deadlines</a>
+        <a href="#">Damages</a>
+        <a href="#">Purchase</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">User</a>
+
+
+    </div>
+    <h1 style="color: rgb(0, 0, 0); text-align: center; margin-left: 140px;">Books Listing</h1>
+    <br>
+    <table class="books">
+        <tr>
+            <td><img class="book" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book10.jpg" alt=""></td>
+            <td><img class="book" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book02.jpg" alt=""></td>
+            <td><img class="book" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book03.jpg" alt=""></td>
+            <td><img class="book" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book04.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td><img class="book" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book07.jpg" alt=""></td>
+            <td><img class="book" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book08.jpg" alt=""></td>
+            <td><img class="book" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book09.jpg" alt=""></td>
+            <td><img class="book" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book01.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td><img class="book" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book12.jpg" alt=""></td>
+            <td><img class="book" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book14.jpg" alt=""></td>
+            <td><img class="book" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book15.jpg" alt=""></td>
+            <td><img class="book" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book16.jpg" alt=""></td>
+        </tr>
+    </table>
+</body>
+
+</html>

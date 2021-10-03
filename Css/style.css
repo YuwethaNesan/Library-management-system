@@ -1,0 +1,248 @@
+body {
+  font-size: 22px;
+  font-family: "teko";
+  margin: 0%;
+  padding: 0%;
+}
+
+/*=====================================Index.html's Styles Start=====================================*/
+
+/*=====================================Navigation bar Styles Start=====================================*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(116, 116, 116);
+}
+
+.active {
+  background-color: DarkSalmon;
+}
+.header {
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+}
+.top-bar {
+  display: flex;
+  max-height: 70px;
+  max-width: 100%;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  font-size: 20px;
+}
+.fa {
+  padding: 20px;
+}
+.left-top-bar > img {
+  max-height: 70px;
+  max-width: auto;
+  justify-content: flex-start;
+  padding-right: 650px;
+}
+.center-top-bar {
+  padding-right: 60px;
+  max-height: 70px;
+  margin-top: -20px;
+  justify-content: flex-end;
+}
+
+.right-top-bar {
+  justify-content: flex-end;
+  max-height: 70px;
+}
+/*=====================================Navigation bar Styles End=====================================*/
+
+/*=====================================landing page Styles Start=====================================*/
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: relative;
+  margin-top: -20%;
+  max-width: 100%;
+  z-index: -1;
+}
+.main-heading {
+  margin-top: -29%;
+  text-align: center;
+  color: white;
+  padding: 30px;
+  background-color: rgba(8, 8, 114, 0.507);
+}
+.main-heading h1 {
+  font: 50px sans-serif;
+  font-weight: 600;
+}
+.main-heading h4 {
+  font: 30px cursive;
+}
+/*=====================================landing page Styles End=====================================*/
+
+/*=====================================Index.html's Styles End=====================================*/
+
+/*Cards*/
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 20px;
+}
+.service {
+  margin-left: 100px;
+}
+
+.row:after {
+  display: inline;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 5px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/*=====================================About Section Styles Start=====================================*/
+
+.about-section .column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #0c0755;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+/*=====================================About Section Styles End=====================================*/
+
+/*=====================================Footer Styles Start=====================================*/
+
+
+footer {
+  width: 100%;
+  position: static;
+  background: #111;
+  color: white !important;
+  bottom: 0;
+  padding-bottom: 10px;
+  background-color: rgb(35, 31, 56);
+  color: white;
+}
+footer p {
+  margin: 40px 10px 0px 200px;
+  color: rgb(255, 255, 255);
+}
+footer i {
+  margin-top: 5px;
+  color: rgb(255, 255, 255);
+}
+footer a {
+  color: white;
+}
+
+/*=====================================Footer Styles End=====================================*/
+
+/*=====================================Cards Styles Start=====================================*/
+
+
+/*Section*/
+
+.column-section {
+  float: left;
+  width: 20%;
+  padding: 0 5px;
+  margin-left: 45px;
+  margin-bottom: 20px;
+}
+
+.row-section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card-section {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgba(8, 8, 114);
+}
+
+.fa {
+  font-size: 50px;
+}
+.book-recent {
+  height: 350px;
+  width: auto;
+  padding: 10px;
+}
+

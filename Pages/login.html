@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Style sheet-->
+    <link rel="stylesheet" href="../Css/style.css">
+    <title> Login Page </title>
+    <style>
+        /*Login*/
+
+.background
+{
+  margin-top:-30px;
+  padding-bottom: 50px;
+  background-image: url("../Images/light.jpg");
+  background-size: cover;
+}
+button {
+  background-color: #0c0755;
+  
+  color: #b9ffc7;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+form {
+  border: 3px solid #0c0755;
+  width: 30%;
+  margin-left: 35%;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 2px solid #0c0755;
+  box-sizing: border-box;
+}
+
+input:focus {
+  opacity: 0.3;
+  border: 2px solid #0c0755;
+}
+
+button:hover {
+  background-color: #342e8d;
+}
+
+
+.container {
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.678);
+}
+
+h2 {
+  padding: 20px 0;
+  text-align: center;
+  color: #ffffff;
+  background-color: #0c0755c5;
+}
+
+.new {
+  text-align: center;
+  margin: 1%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100px;
+  max-height: 100px;
+}
+.forgot{
+  text-decoration: none;
+  color: #0c0755;
+
+}
+.return{
+  text-decoration: none;
+}
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <h2 style="text-align: center;"> Login to <br><strong>Library Management System</strong> </h2>
+        <a class="return button" href="../index.html">Return to home</a>
+        <br>
+        <br>
+        <div class="rectangle">
+            <form>
+                <div class="container">
+                    <img src="../Images/img_avatar.png" alt="Avatar" style="width:150px"><br>
+                    <label>Username : </label>
+                    <input type="text" placeholder="Enter Username" name="username" required>
+                    <label>Password : </label>
+                    <input type="password" placeholder="Enter Password" name="password" required>
+                    <input type="checkbox" checked="checked"> <label>Remember me</label>
+                    <br>
+                    <br>
+
+                    <button type="submit">Login</button> <br>
+                    <a href="#" class="forgot"> Forgot password? </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
